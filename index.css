@@ -23,7 +23,7 @@
 }
 
 body {
-  padding: 1rem;
+  padding: .3rem;
   max-width: 1440px;
   margin: 0 auto;
   background-color: #EEE5E5;
@@ -59,7 +59,11 @@ body {
 .nav-img {
   position: relative;
 }
+.circle {
+  width: 100%;
+}
 .camera {
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -216,7 +220,7 @@ body {
   
   body {
     margin: 0 auto;
-    padding: 0;
+    padding: .3rem;
   }
   
   .nav1, .nav2{
