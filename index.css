@@ -40,6 +40,7 @@ body {
 #header {
   background-color: #a8daf9e1;
   border-radius: 8px;
+  width: 100%;
 }
 .nav1 {
   display: flex;
@@ -85,6 +86,10 @@ body {
 
 
 /* Main section = card */
+
+.main {
+  width: 100%;
+}
 
 .card-heading {
   text-align: center;
@@ -170,27 +175,17 @@ body {
 /* Footer Section Style */
 
 .footer {
+  width: 100%;
   background-color: #001532;
   text-align: center;
   padding: 50px 0 90px 0;
   margin-top: 7rem;
-  border-radius: 8px;
 }
 .footer-title {
   color: #ffffff;
 }
 .copy-right {
   color: #ffffff;
-}
-/* .footer-icon {
-  background-color:#001532;
-} */
-#footer-icon{
-  width: 2.2%;
-  height: 2.2%;
-}
-.footer-icon {
-  margin: 5px 15px;
 }
 
 /* Shared Style */
@@ -220,10 +215,8 @@ body {
 @media screen and (max-width: 576px) {
   
   body {
-    /* max-width: 576px; */
     margin: 0 auto;
     padding: 0;
-    /* padding: 15px 15px; */
   }
   
   .nav1, .nav2{
