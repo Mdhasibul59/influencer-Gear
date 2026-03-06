@@ -239,6 +239,11 @@ body {
   }
   .card {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 100px;
+  }
+  .feature-container {
+    flex-direction: column;
+  }
+  .feature-detail {
+    text-align: center;
   }
 }
