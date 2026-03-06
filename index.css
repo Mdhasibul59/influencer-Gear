@@ -220,9 +220,9 @@ body {
 @media screen and (max-width: 576px) {
   
   body {
-    max-width: 576px;
+    /* max-width: 576px; */
     margin: 0 auto;
-    padding: 15px 15px;
+    /* padding: 15px 15px; */
   }
   
   .nav1, .nav2{
@@ -242,6 +242,7 @@ body {
   }
   .feature-container {
     flex-direction: column;
+    padding-bottom: 10px;
   }
   .feature-detail {
     text-align: center;
